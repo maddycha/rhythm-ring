@@ -17,6 +17,7 @@ members.push({name: "Haumea Geth", url: "https://stupidwittlebaby.neocities.org/
 members.push({name: "snacks", url: "https://snacksgg.neocities.org/", img: "moai-doo-wop-2.png"});
 members.push({name: "Piranhebula", url: "https://piranhebula.neocities.org/", img: "crop-stomp.png"});
 members.push({name: "candycanearter", url: "https://abslimeware.neocities.org", img: "fillbots.png"});
+members.push({name: "SKAPASTA", url: "https://skapasta.neocities.org", img: "dog-ninja.png"});
 
 
 

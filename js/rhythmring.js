@@ -18,6 +18,7 @@ members.push({name: "snacks", url: "https://snacksgg.neocities.org/", img: "moai
 members.push({name: "Piranhebula", url: "https://piranhebula.neocities.org/", img: "crop-stomp.png"});
 members.push({name: "candycanearter", url: "https://abslimeware.neocities.org", img: "fillbots.png"});
 members.push({name: "SKAPASTA", url: "https://skapasta.neocities.org", img: "dog-ninja.png"});
+members.push({name: "LetsgoLeeLee", url: "https://letsgoleelee.neocities.org/home", img: "the-dazzles-2.png "});
 
 
 

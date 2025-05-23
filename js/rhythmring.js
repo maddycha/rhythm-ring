@@ -20,7 +20,7 @@ members.push({name: "candycanearter", url: "https://abslimeware.neocities.org", 
 members.push({name: "SKAPASTA", url: "https://skapasta.neocities.org", img: "dog-ninja.png"});
 members.push({name: "LetsgoLeeLee", url: "https://letsgoleelee.neocities.org/home", img: "the-dazzles-2.png "});
 members.push({name: "Kie", url: "https://ivyswell-tavern.neocities.org/", img: "big-rock-finish.png"});
-
+members.push({name: "s1nez", url: "https://s1nez.nekoweb.org", img:"blue-birds.png"});
 
 var webring = {
   // list of sites in the ring

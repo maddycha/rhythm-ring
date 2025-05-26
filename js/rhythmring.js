@@ -1,7 +1,7 @@
 // webstring by june @ webcatz.neocities.org
 
 // settings
-
+var test = [];
 var members = [];
 
 members.push({name: "maddy", url: "https://maddycha.com/", img: "the-dazzles-2.png"});

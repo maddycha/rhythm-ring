@@ -21,7 +21,7 @@ members.push({name: "SKAPASTA", url: "https://skapasta.neocities.org", img: "dog
 members.push({name: "LetsgoLeeLee", url: "https://letsgoleelee.neocities.org/home", img: "the-dazzles-2.png "});
 members.push({name: "Kie", url: "https://ivyswell-tavern.neocities.org/", img: "big-rock-finish.png"});
 members.push({name: "s1nez", url: "https://s1nez.nekoweb.org", img:"blue-birds.png"});
-members.push({name: "Dreamsacpes", url: "https://meyr0s3.neocities.org/", img: "dj.school.png"});
+members.push({name: "Dreamsacpes", url: "https://meyr0s3.neocities.org/", img: "dj-school.png"});
 
 
 var webring = {

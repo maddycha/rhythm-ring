@@ -22,6 +22,8 @@ members.push({name: "LetsgoLeeLee", url: "https://letsgoleelee.neocities.org/hom
 members.push({name: "Kie", url: "https://ivyswell-tavern.neocities.org/", img: "big-rock-finish.png"});
 members.push({name: "s1nez", url: "https://s1nez.nekoweb.org", img:"blue-birds.png"});
 members.push({name: "Dreamsacpes", url: "https://meyr0s3.neocities.org/", img: "dj-school.png"});
+members.push({name: "ucami", url: "https://ucami.neocities.org", img: "love-lizards.png"});
+
 
 
 var webring = {

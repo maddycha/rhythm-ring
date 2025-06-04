@@ -37,6 +37,4 @@ function populateMembers() {
     document.getElementById("members-table").innerHTML+= "<div class='member'><img src='imgs/icons/"+members[i].img+"'><p>"+members[i].name+"</p><a href='"+members[i].url+"' target='_blank'><p>[website]</p></a></div>";
 ;
   }
-  console.log(members.name);
-  console.log(webring.sites);
 }

@@ -26,6 +26,8 @@ members.push({name: "ucami", url: "https://ucami.neocities.org", img: "love-liza
 members.push({name: "Jay", url: "https://transrats.neocities.org", img: "built-to-scale-2.png"});
 members.push({name: "Common Sins Games", url: "https://commonsinsgames.neocities.org", img: "blue-birds.png"});
 members.push({name: "jeith!", url: "https://jeith.com", img: "love-lizards.png"});
+members.push({name: "daisybells", url: "https://daisybells.neocities.org", img: "big-rock-finish.png"});
+
 
 var webring = {
   // list of sites in the ring

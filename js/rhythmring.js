@@ -27,6 +27,8 @@ members.push({name: "Jay", url: "https://transrats.neocities.org", img: "built-t
 members.push({name: "Common Sins Games", url: "https://commonsinsgames.neocities.org", img: "blue-birds.png"});
 members.push({name: "jeith!", url: "https://jeith.com", img: "love-lizards.png"});
 members.push({name: "daisybells", url: "https://daisybells.neocities.org", img: "big-rock-finish.png"});
+members.push({name: "Nicky", url: "https://nickyturner.neocities.org", img: "love-lab.png"});
+
 
 
 var webring = {

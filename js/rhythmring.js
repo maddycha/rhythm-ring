@@ -29,6 +29,8 @@ members.push({name: "jeith!", url: "https://jeith.com", img: "love-lizards.png"}
 members.push({name: "daisybells", url: "https://daisybells.neocities.org", img: "big-rock-finish.png"});
 members.push({name: "Nicky", url: "https://nickyturner.neocities.org", img: "love-lab.png"});
 members.push({name: "amfmradio", url: "https://amfmradio.org/", img: "karate-man.png"});
+members.push({name: "tesseract sys", url: "https://tesseractcube.neocities.org/", img: "glee-club.png"});
+
 
 
 

@@ -30,6 +30,7 @@ members.push({name: "daisybells", url: "https://daisybells.neocities.org", img: 
 members.push({name: "Nicky", url: "https://nickyturner.neocities.org", img: "love-lab.png"});
 members.push({name: "amfmradio", url: "https://amfmradio.nekoweb.org/", img: "karate-man.png"});
 members.push({name: "tesseract sys", url: "https://tesseractcube.neocities.org/", img: "glee-club.png"});
+members.push({name: "aiden!", url: " https://troy-sucks.neocities.org/  ", img: "space-soccer.png"});
 
 
 

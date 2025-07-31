@@ -31,6 +31,8 @@ members.push({name: "Nicky", url: "https://nickyturner.neocities.org", img: "lov
 members.push({name: "amfmradio", url: "https://amfmradio.nekoweb.org/", img: "karate-man.png"});
 members.push({name: "tesseract sys", url: "https://tesseractcube.neocities.org/", img: "glee-club.png"});
 members.push({name: "aiden!", url: " https://troy-sucks.neocities.org/  ", img: "space-soccer.png"});
+members.push({name: "reyn", url: "https://cervidaze.me", img: "lockstep.png"});
+
 
 
 

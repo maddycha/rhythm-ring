@@ -32,8 +32,8 @@ members.push({name: "amfmradio", url: "https://amfmradio.nekoweb.org/", img: "ka
 members.push({name: "tesseract sys", url: "https://tesseractcube.neocities.org/", img: "glee-club.png"});
 members.push({name: "aiden!", url: " https://troy-sucks.neocities.org/  ", img: "space-soccer.png"});
 members.push({name: "reyn", url: "https://cervidaze.me", img: "lockstep.png"});
-
-
+members.push({name: "Grubdog", url: "https://the-grub-grotto.neocities.org/", img: "crop-stomp.png"});
+members.push({name: "Ambrose", url: "https://ruitherga.neocities.org", img: " blue-birds.png"});
 
 
 

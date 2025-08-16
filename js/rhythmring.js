@@ -34,6 +34,8 @@ members.push({name: "aiden!", url: " https://troy-sucks.neocities.org/  ", img: 
 members.push({name: "reyn", url: "https://cervidaze.me", img: "lockstep.png"});
 members.push({name: "Grubdog", url: "https://the-grub-grotto.neocities.org/", img: "crop-stomp.png"});
 members.push({name: "Ambrose", url: "https://ruitherga.neocities.org", img: " blue-birds.png"});
+members.push({name: "Mary Cuntrarian", url: "http://marycuntrarian.neocities.org", img: "dj-school.png"});
+
 
 
 

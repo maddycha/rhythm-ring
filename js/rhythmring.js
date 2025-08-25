@@ -35,6 +35,7 @@ members.push({name: "reyn", url: "https://cervidaze.me", img: "lockstep.png"});
 members.push({name: "Grubdog", url: "https://the-grub-grotto.neocities.org/", img: "crop-stomp.png"});
 members.push({name: "Ambrose", url: "https://ruitherga.neocities.org", img: "blue-birds.png"});
 members.push({name: "Mary Cuntrarian", url: "http://marycuntrarian.neocities.org", img: "dj-school.png"});
+members.push({name: "Heap!", url: "https://twotriplezero.nekoweb.org/", img: "love-lab.png"});
 members.push({name: "Blaze", url: "https://blazermaze.neocities.org/", img: "frog-hop-2.png"});
 
 

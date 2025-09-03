@@ -37,6 +37,8 @@ members.push({name: "Ambrose", url: "https://ruitherga.neocities.org", img: "blu
 members.push({name: "Mary Cuntrarian", url: "http://marycuntrarian.neocities.org", img: "dj-school.png"});
 members.push({name: "Heap!", url: "https://twotriplezero.nekoweb.org/", img: "love-lab.png"});
 members.push({name: "Blaze", url: "https://blazermaze.neocities.org/", img: "frog-hop-2.png"});
+members.push({name: "Quaggy", url: "https://quaggos.neocities.org/", img: "splashdown.png"});
+
 
 
 

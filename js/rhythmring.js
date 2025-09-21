@@ -38,9 +38,11 @@ members.push({name: "Mary Cuntrarian", url: "http://marycuntrarian.neocities.org
 members.push({name: "Heap!", url: "https://twotriplezero.nekoweb.org/", img: "love-lab.png"});
 members.push({name: "Blaze", url: "https://blazermaze.neocities.org/", img: "frog-hop-2.png"});
 members.push({name: "Quaggy", url: "https://quaggos.neocities.org/", img: "splashdown.png"});
-
-
-
+members.push({name: "minx98", url: "https://minx98.neocities.org/", img: "built-to-scale.png"});
+members.push({name: "haunt_culture", url: "https://haunt-culture.neocities.org/", img: "rockers.png"});
+members.push({name: "R3CK", url: "https://r3ckoning.nekoweb.org", img: "splashdown.png"});
+members.push({name: "mizu", url: "https://aa-aa-mic-test.neocities.org", img: "glee-club-2.png"});
+members.push({name: "5BRY", url: "https://xbry.neocities.org", img: "space-soccer.png"});
 
 
 var webring = {

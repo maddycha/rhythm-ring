@@ -43,6 +43,7 @@ members.push({name: "haunt_culture", url: "https://haunt-culture.neocities.org/"
 members.push({name: "R3CK", url: "https://r3ckoning.nekoweb.org", img: "splashdown.png"});
 members.push({name: "mizu", url: "https://aa-aa-mic-test.neocities.org", img: "glee-club-2.png"});
 members.push({name: "5BRY", url: "https://xbry.neocities.org", img: "space-soccer.png"});
+members.push({name: "Shanimal", url: "https://shanimal.neocities.org/", img: "lockstep.png"});
 
 
 var webring = {

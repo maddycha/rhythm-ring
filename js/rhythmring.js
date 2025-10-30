@@ -46,6 +46,8 @@ members.push({name: "5BRY", url: "https://xbry.neocities.org", img: "space-socce
 members.push({name: "Shanimal", url: "https://shanimal.neocities.org/", img: "lockstep.png"});
 members.push({name: "Butterscotch", url: "https://butterscotch.oldcities.org", img: "fillbots.png"});
 members.push({name: "zestpunk", url: "https://zestpunk.online/", img: "frog-hop-2.png"});
+members.push({name: "pan", url: "https://moonlit.exposed", img: "big-rock-finish.png"});
+members.push({name: "tina", url: "https://manacake.co/", img: "splashdown.png"});
 
 
 

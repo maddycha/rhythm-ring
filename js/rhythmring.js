@@ -48,6 +48,8 @@ members.push({name: "Butterscotch", url: "https://butterscotch.oldcities.org", i
 members.push({name: "zestpunk", url: "https://zestpunk.online/", img: "frog-hop-2.png"});
 members.push({name: "pan", url: "https://moonlit.exposed", img: "big-rock-finish.png"});
 members.push({name: "tina", url: "https://manacake.co/", img: "splashdown.png"});
+members.push({name: "Elijah", url: "https://elijahposttrash.neocities.org/", img: "rockers.png"});
+
 
 
 

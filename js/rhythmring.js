@@ -49,6 +49,7 @@ members.push({name: "zestpunk", url: "https://zestpunk.online/", img: "frog-hop-
 members.push({name: "pan", url: "https://moonlit.exposed", img: "big-rock-finish.png"});
 members.push({name: "tina", url: "https://manacake.co/", img: "splashdown.png"});
 members.push({name: "Elijah", url: "https://elijahposttrash.neocities.org/", img: "rockers.png"});
+members.push({name: "marmar", url: "https://maralados.neocities.org/", img: "glee-club.png"});
 
 
 

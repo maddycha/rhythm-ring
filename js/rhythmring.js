@@ -50,6 +50,9 @@ members.push({name: "pan", url: "https://moonlit.exposed", img: "big-rock-finish
 members.push({name: "tina", url: "https://manacake.co/", img: "splashdown.png"});
 members.push({name: "Elijah", url: "https://elijahposttrash.neocities.org/", img: "rockers.png"});
 members.push({name: "marmar", url: "https://maralados.neocities.org/", img: "glee-club.png"});
+members.push({name: "Herb", url: "https://herbus-serwus.neocities.org", img: " lockstep.png "});
+members.push({name: "Cobie", url: "https://cobie.nekoweb.org/", img: "lockstep-2.png"});
+
 
 
 

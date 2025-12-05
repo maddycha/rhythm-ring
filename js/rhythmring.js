@@ -7,7 +7,7 @@ var members = [];
 members.push({name: "maddy", url: "https://maddycha.com/", img: "the-dazzles-2.png"});
 members.push({name: "yoona", url: "https://y2kstardust.neocities.org/", img: "built-to-scale.png"});
 members.push({name: "max", url: "https://minerolymax.neocities.org", img: "blue-birds-2.png"});
-members.push({name: "ddnikki", url: "https://ddnikki.nekoweb.org", img: "rockers.png"});
+members.push({name: "ddnikki", url: "https://ddnikki.moe", img: "rockers.png"});
 members.push({name: "sunny", url: "https://sunshinebeach.neocities.org/", img: "lockstep.png"});
 members.push({name: "Joey", url: "https://goldremix.neocities.org/", img: "rockers-2.png"});
 members.push({name: "Starry", url: "https://starry-knight.neocities.org/", img: "crop-stomp.png"});

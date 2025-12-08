@@ -44,7 +44,7 @@ members.push({name: "R3CK", url: "https://r3ckoning.nekoweb.org", img: "splashdo
 members.push({name: "mizu", url: "https://aa-aa-mic-test.neocities.org", img: "glee-club-2.png"});
 members.push({name: "5BRY", url: "https://xbry.neocities.org", img: "space-soccer.png"});
 members.push({name: "Shanimal", url: "https://shanimal.neocities.org/", img: "lockstep.png"});
-members.push({name: "Butterscotch", url: "https://butterscotch.oldcities.org", img: "fillbots.png"});
+members.push({name: "Butterscotch", url: "butterscotch.online", img: "fillbots.png"});
 members.push({name: "zestpunk", url: "https://zestpunk.online/", img: "frog-hop-2.png"});
 members.push({name: "pan", url: "https://moonlit.exposed", img: "big-rock-finish.png"});
 members.push({name: "tina", url: "https://manacake.co/", img: "splashdown.png"});

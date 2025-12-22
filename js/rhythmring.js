@@ -44,7 +44,7 @@ members.push({name: "R3CK", url: "https://r3ckoning.nekoweb.org", img: "splashdo
 members.push({name: "mizu", url: "https://aa-aa-mic-test.neocities.org", img: "glee-club-2.png"});
 members.push({name: "5BRY", url: "https://xbry.neocities.org", img: "space-soccer.png"});
 members.push({name: "Shanimal", url: "https://shanimal.neocities.org/", img: "lockstep.png"});
-members.push({name: "Butterscotch", url: "butterscotch.online", img: "fillbots.png"});
+members.push({name: "Butterscotch", url: "https://butterscotch.online", img: "fillbots.png"});
 members.push({name: "zestpunk", url: "https://zestpunk.online/", img: "frog-hop-2.png"});
 members.push({name: "pan", url: "https://moonlit.exposed", img: "big-rock-finish.png"});
 members.push({name: "tina", url: "https://manacake.co/", img: "splashdown.png"});
@@ -52,6 +52,8 @@ members.push({name: "Elijah", url: "https://elijahposttrash.neocities.org/", img
 members.push({name: "marmar", url: "https://maralados.neocities.org/", img: "glee-club.png"});
 members.push({name: "Herb", url: "https://herbus-serwus.neocities.org", img: "lockstep.png"});
 members.push({name: "Cobie", url: "https://cobie.nekoweb.org/", img: "lockstep-2.png"});
+members.push({name: "cody", url: "https://jaywatcher.neocities.org/", img: "rhythm-rally-2.png"});
+
 
 
 

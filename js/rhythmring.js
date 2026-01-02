@@ -24,7 +24,7 @@ members.push({name: "s1nez", url: "https://s1nez.nekoweb.org", img:"blue-birds.p
 members.push({name: "Dreamsacpes", url: "https://meyr0s3.neocities.org/", img: "dj-school.png"});
 members.push({name: "ucami", url: "https://ucami.neocities.org", img: "love-lizards.png"});
 members.push({name: "Jay", url: "https://transrats.neocities.org", img: "built-to-scale-2.png"});
-members.push({name: "Common Sins Games", url: "https://commonsinsgames.neocities.org", img: "blue-birds.png"});
+members.push({name: "Common Sins Games", url: "https://asahelixwastaken.neocities.org", img: "blue-birds.png"});
 members.push({name: "jeith!", url: "https://jeith.com", img: "love-lizards.png"});
 members.push({name: "daisybells", url: "https://daisybells.neocities.org", img: "big-rock-finish.png"});
 members.push({name: "Nicky", url: "https://nickyturner.neocities.org", img: "love-lab.png"});

@@ -55,7 +55,7 @@ members.push({name: "Cobie", url: "https://cobie.nekoweb.org/", img: "lockstep-2
 members.push({name: "cody", url: "https://jaywatcher.neocities.org/", img: "rhythm-rally-2.png"});
 members.push({name: "Jonah", url: "https://windowsuser.neocities.com", img: "lockstep.png"});
 members.push({name: "Sedaxf", url: "https://sedaxf.neocities.org/", img: "space-soccer-2.png"});
-
+members.push({name: "krill0w", url: "https://krill0w.garden", img: "frog-hop.png"});
 
 
 

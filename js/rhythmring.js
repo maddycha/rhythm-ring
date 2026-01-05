@@ -53,6 +53,8 @@ members.push({name: "marmar", url: "https://maralados.neocities.org/", img: "gle
 members.push({name: "Herb", url: "https://herbus-serwus.neocities.org", img: "lockstep.png"});
 members.push({name: "Cobie", url: "https://cobie.nekoweb.org/", img: "lockstep-2.png"});
 members.push({name: "cody", url: "https://jaywatcher.neocities.org/", img: "rhythm-rally-2.png"});
+members.push({name: "Jonah", url: "https://windowsuser.neocities.com", img: "lockstep.png"});
+members.push({name: "Sedaxf", url: "https://sedaxf.neocities.org/", img: "space-soccer-2.png"});
 
 
 

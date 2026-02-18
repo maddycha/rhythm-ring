@@ -57,6 +57,7 @@ members.push({name: "Jonah", url: "https://windowsuser.neocities.com", img: "loc
 members.push({name: "Sedaxf", url: "https://sedaxf.neocities.org/", img: "space-soccer-2.png"});
 members.push({name: "krill0w", url: "https://krill0w.garden", img: "frog-hop.png"});
 members.push({name: "Jujuuy", url: "https://jujuuy.neocities.org/", img: "big-rock-finish.png"});
+members.push({name: "Cantankyote", url: "https://cantankyote.nekoweb.org/", img: "frog-hop-2.png"});
 
 
 

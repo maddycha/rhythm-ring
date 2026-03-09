@@ -60,7 +60,7 @@ members.push({name: "Jujuuy", url: "https://jujuuy.neocities.org/", img: "big-ro
 members.push({name: "Cantankyote", url: "https://cantankyote.nekoweb.org/", img: "frog-hop-2.png"});
 members.push({name: "ax", url: "https://oversurge.nekoweb.org", img: "dj-school.png"});
 members.push({name: "emmy", url: "https://p3p.neocities.org/", img: "fan-club.png"});
-members.push({name: littlelum, url:"https://littlelum.neocities.org", img: "glee-club.png"});
+members.push({name: "littlelum", url:"https://littlelum.neocities.org", img: "glee-club.png"});
 
 
 

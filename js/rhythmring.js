@@ -52,7 +52,6 @@ members.push({name: "Elijah", url: "https://elijahposttrash.neocities.org/", img
 members.push({name: "marmar", url: "https://maralados.neocities.org/", img: "glee-club.png"});
 members.push({name: "Herb", url: "https://herbus-serwus.neocities.org", img: "lockstep.png"});
 members.push({name: "Cobie", url: "https://cobie.nekoweb.org/", img: "lockstep-2.png"});
-members.push({name: "cody", url: "https://jaywatcher.neocities.org/", img: "rhythm-rally-2.png"});
 members.push({name: "Jonah", url: "https://windowsuser.neocities.com", img: "lockstep.png"});
 members.push({name: "Sedaxf", url: "https://sedaxf.neocities.org/", img: "space-soccer-2.png"});
 members.push({name: "krill0w", url: "https://krill0w.garden", img: "frog-hop.png"});
@@ -61,6 +60,7 @@ members.push({name: "Cantankyote", url: "https://cantankyote.nekoweb.org/", img:
 members.push({name: "ax", url: "https://oversurge.nekoweb.org", img: "dj-school.png"});
 members.push({name: "emmy", url: "https://p3p.neocities.org/", img: "fan-club.png"});
 members.push({name: "littlelum", url:"https://littlelum.neocities.org", img: "glee-club.png"});
+members.push({name: "wanigator", url: "https://waniwanigatorgator.neocities.org", img: "frog-hop-2.png"});
 
 
 

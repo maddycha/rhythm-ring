@@ -63,6 +63,8 @@ members.push({name: "littlelum", url:"https://littlelum.neocities.org", img: "gl
 members.push({name: "wanigator", url: "https://waniwanigatorgator.neocities.org", img: "frog-hop-2.png"});
 members.push({name: "Sam", url: "https://samswaggedout.neocities.org/", img: "rockers.png"});
 members.push({name: "sens", url: "https://fantasmagoria.neocities.org/", img: "lockstep.png"});
+members.push({name: "sugaryparty", url: "https://sugaryparty.neocities.org/", img: "frog-hop.png"});
+
 
 
 

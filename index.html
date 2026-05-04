@@ -11,15 +11,12 @@
     <link rel="shortcut icon" type="image/png" href="imgs/misc/favicon.png" />
     <meta property="og:title" content="rhythm ring" />
     <meta property="og:url" content="https://www.maddycha.com/rhythm-ring" />
-    <!-- <meta property="og:image" content="https://i.ibb.co/RGFTFwX7/Frame-44.png" /> -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="og:site_name" content="rhythm ring">
-    <!-- <meta name="twitter:image:alt" content="preview of maddycha.com homepage">
-    <meta property="og:description" content="personal website for designer/illustrator/hobbyist maddy cha"> -->
-    <div class="crt"></div>
 </head>
 
-<body onload="populateMembers();">
+<body onload="populateMembers(); populateIcons();">
+    <div class="crt"></div>
 
     <main id="ds">
         <div id="left-screen">
@@ -101,216 +98,15 @@
                             info.
 
                             <textarea
-                                style="margin-top: 2px;margin-bottom: 2px;">members.push({name: "NAME", url: "HTTPS://URL.COM", img: "FILE NAME"});</textarea>
-                            <p>EXAMPLE: members.push({name: "<span class="accent-color">maddy</span>", url: "<span
-                                    class="accent-color">https://maddycha.com/"</span>, img: "<span
-                                    class="accent-color">the-dazzles-2.png</span>"});</p>
+                                style="margin-top: 2px;margin-bottom: 2px;">{ name: "NAME", url: "HTTPS://URL.COM", img: "FILE NAME" },</textarea>
+                            <p>EXAMPLE: { name: "<span class="accent-color">maddy</span>", url: "<span
+                                    class="accent-color">https://maddycha.com/</span>", img: "<span
+                                    class="accent-color">the-dazzles-2.png</span>" },</p>
                         </li>
                     </ol>
                 </section>
 
-                <div class="icon-options">
-                    <div class="icon">
-                        <img src="imgs/icons/built-to-scale.png">
-                        <code>built-to-scale.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/glee-club.png">
-                        <code>glee-club.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/fillbots.png">
-                        <code>fillbots.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/fan-club.png">
-                        <code>fan-club.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/remix-1.png">
-                        <code>remix-1.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/rhythm-rally.png">
-                        <code>rhythm-rally.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/shoot-em-up.png">
-                        <code>shoot-em-up.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/blue-birds.png">
-                        <code>blue-birds.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/moai-doo-wop.png">
-                        <code>moai-doo-wop.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/remix-2.png">
-                        <code>remix-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/love-lizards.png">
-                        <code>love-lizards.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/crop-stomp.png">
-                        <code>crop-stomp.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/freeze-frame.png">
-                        <code>freeze-frame.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/the-dazzles.png">
-                        <code>the-dazzles.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/remix-3.png">
-                        <code>remix-3.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/munchy-monk.png">
-                        <code>munchy-monk.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/dj-school.png">
-                        <code>dj-school.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/drummer-duel.png">
-                        <code>drummer-duel.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/love-lab.png">
-                        <code>love-lab.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/remix-4.png">
-                        <code>remix-4.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/splashdown.png">
-                        <code>splashdown.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/big-rock-finish.png">
-                        <code>big-rock-finish.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/dog-ninja.png">
-                        <code>dog-ninja.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/frog-hop.png">
-                        <code>frog-hop.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/remix-5.png">
-                        <code>remix-5.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/space-soccer.png">
-                        <code>space-soccer.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/lockstep.png">
-                        <code>lockstep.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/rockers.png">
-                        <code>rockers.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/karate-man.png">
-                        <code>karate-man.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/remix-6.png">
-                        <code>remix-6.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/built-to-scale-2.png">
-                        <code>built-to-scale-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/the-dazzles-2.png">
-                        <code>the-dazzles-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/frog-hop-2.png">
-                        <code>frog-hop-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/fan-club-2.png">
-                        <code>fan-club-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/remix-7.png">
-                        <code>remix-7.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/rhythm-rally-2.png">
-                        <code>rhythm-rally-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/fillbots-2.png">
-                        <code>fillbots-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/blue-birds-2.png">
-                        <code>blue-birds-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/lockstep-2.png">
-                        <code>lockstep-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/remix-8.png">
-                        <code>remix-8.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/moai-doo-wop-2.png">
-                        <code>moai-doo-wop-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/karate-man-2.png">
-                        <code>karate-man-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/glee-club-2.png">
-                        <code>glee-club-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/space-soccer-2.png">
-                        <code>space-soccer-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/remix-9.png">
-                        <code>remix-9.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/shoot-em-up-2.png">
-                        <code>shoot-em-up-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/splashdown-2.png">
-                        <code>splashdown-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/munchy-monk-2.png">
-                        <code>munchy-monk-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/rockers-2.png">
-                        <code>rockers-2.png</code>
-                    </div>
-                    <div class="icon">
-                        <img src="imgs/icons/remix-10.png">
-                        <code>remix-10.png</code>
-                    </div>
-                </div>
+                <div class="icon-options" id="icon-options"></div>
             </div>
 
             <div id="memberspage" class="page">

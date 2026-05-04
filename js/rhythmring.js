@@ -1,259 +1,93 @@
 // webstring by june @ webcatz.neocities.org
 
-// settings
-var test = [];
-var members = [];
+// ===== MEMBERS =====
+// To add a new member: add { name, url, img } to this array
+var members = [
+  { name: "maddy", url: "https://maddycha.com/", img: "the-dazzles-2.png" },
+  { name: "yoona", url: "https://y2kstardust.neocities.org/", img: "built-to-scale.png" },
+  { name: "max", url: "https://minerolymax.neocities.org", img: "blue-birds-2.png" },
+  { name: "ddnikki", url: "https://ddnikki.moe", img: "rockers.png" },
+  { name: "sunny", url: "https://sunshinebeach.neocities.org/", img: "lockstep.png" },
+  { name: "Joey", url: "https://goldremix.neocities.org/", img: "rockers-2.png" },
+  { name: "Starry", url: "https://starry-knight.neocities.org/", img: "crop-stomp.png" },
+  { name: "phi", url: "https://biofreak.world", img: "glee-club-2.png" },
+  { name: "OllieOkay", url: "https://ollie-okay.neocities.org/", img: "fillbots.png" },
+  { name: "Haumea Geth", url: "https://stupidwittlebaby.neocities.org/", img: "love-lab.png" },
+  { name: "snacks", url: "https://snacksgg.neocities.org/", img: "moai-doo-wop-2.png" },
+  { name: "Piranhebula", url: "https://piranhebula.neocities.org/", img: "crop-stomp.png" },
+  { name: "candycanearter", url: "https://abslimeware.neocities.org", img: "fillbots.png" },
+  { name: "SKAPASTA", url: "https://skapasta.neocities.org", img: "dog-ninja.png" },
+  { name: "LetsgoLeeLee", url: "https://letsgoleelee.neocities.org/home", img: "the-dazzles-2.png" },
+  { name: "Kie", url: "https://ivyswell-tavern.neocities.org/", img: "big-rock-finish.png" },
+  { name: "s1nez", url: "https://s1nez.nekoweb.org", img: "blue-birds.png" },
+  { name: "Dreamsacpes", url: "https://meyr0s3.neocities.org/", img: "dj-school.png" },
+  { name: "ucami", url: "https://ucami.neocities.org", img: "love-lizards.png" },
+  { name: "Jay", url: "https://transrats.neocities.org", img: "built-to-scale-2.png" },
+  { name: "Common Sins Games", url: "https://asahelixwastaken.neocities.org", img: "blue-birds.png" },
+  { name: "jeith!", url: "https://jeith.com", img: "love-lizards.png" },
+  { name: "daisybells", url: "https://daisybells.neocities.org", img: "big-rock-finish.png" },
+  { name: "Nicky", url: "https://nickyturner.neocities.org", img: "love-lab.png" },
+  { name: "amfmradio", url: "https://amfmradio.org/", img: "karate-man.png" },
+  { name: "tesseract sys", url: "https://tesseractcube.neocities.org/", img: "glee-club.png" },
+  { name: "aiden!", url: "https://troy-sucks.neocities.org/", img: "space-soccer.png" },
+  { name: "reyn", url: "https://cervidaze.me", img: "lockstep.png" },
+  { name: "Grubdog", url: "https://the-grub-grotto.neocities.org/", img: "crop-stomp.png" },
+  { name: "Ambrose", url: "https://ruitherga.neocities.org", img: "blue-birds.png" },
+  { name: "Mary Cuntrarian", url: "http://marycuntrarian.neocities.org", img: "dj-school.png" },
+  { name: "Heap!", url: "https://twotriplezero.nekoweb.org/", img: "love-lab.png" },
+  { name: "Blaze", url: "https://blazermaze.neocities.org/", img: "frog-hop-2.png" },
+  { name: "Quaggy", url: "https://quaggos.neocities.org/", img: "splashdown.png" },
+  { name: "minx98", url: "https://minx98.neocities.org/", img: "built-to-scale.png" },
+  { name: "haunt_culture", url: "https://haunt-culture.neocities.org/", img: "rockers.png" },
+  { name: "R3CK", url: "https://r3ckoning.nekoweb.org", img: "splashdown.png" },
+  { name: "mizu", url: "https://aa-aa-mic-test.neocities.org", img: "glee-club-2.png" },
+  { name: "5BRY", url: "https://xbry.neocities.org", img: "space-soccer.png" },
+  { name: "Shanimal", url: "https://shanimal.neocities.org/", img: "lockstep.png" },
+  { name: "Butterscotch", url: "https://butterscotch.online", img: "fillbots.png" },
+  { name: "zestpunk", url: "https://zestpunk.online/", img: "frog-hop-2.png" },
+  { name: "pan", url: "https://moonlit.exposed", img: "big-rock-finish.png" },
+  { name: "tina", url: "https://manacake.co/", img: "splashdown.png" },
+  { name: "Elijah", url: "https://elijahposttrash.neocities.org/", img: "rockers.png" },
+  { name: "marmar", url: "https://maralados.neocities.org/", img: "glee-club.png" },
+  { name: "Herb", url: "https://herbus-serwus.neocities.org", img: "lockstep.png" },
+  { name: "Cobie", url: "https://cobie.nekoweb.org/", img: "lockstep-2.png" },
+  { name: "Jonah", url: "https://windowsuser.neocities.com", img: "lockstep.png" },
+  { name: "Sedaxf", url: "https://sedaxf.neocities.org/", img: "space-soccer-2.png" },
+  { name: "krill0w", url: "https://krill0w.garden", img: "frog-hop.png" },
+  { name: "Jujuuy", url: "https://jujuuy.neocities.org/", img: "big-rock-finish.png" },
+  { name: "Cantankyote", url: "https://cantankyote.nekoweb.org/", img: "frog-hop-2.png" },
+  { name: "ax", url: "https://oversurge.nekoweb.org", img: "dj-school.png" },
+  { name: "emmy", url: "https://p3p.neocities.org/", img: "fan-club.png" },
+  { name: "littlelum", url: "https://littlelum.neocities.org", img: "glee-club.png" },
+  { name: "wanigator", url: "https://waniwanigatorgator.neocities.org", img: "frog-hop-2.png" },
+  { name: "Sam", url: "https://samswaggedout.neocities.org/", img: "rockers.png" },
+  { name: "sugaryparty", url: "https://sugaryparty.neocities.org/", img: "frog-hop.png" },
+  { name: "sens", url: "https://fantasmagoria.neocities.org/", img: "lockstep.png" },
+  { name: "lyji", url: "https://lyji.neocities.org/", img: "lockstep.png" },
+  { name: "aetherway", url: "https://aetherway.neocitities.org", img: "love-lab.png" },
+  { name: "Termotanque De Leche", url: "https://termotanquedeleche.neocities.org/", img: "freeze-frame.png" },
+];
 
-members.push({name: "maddy", url: "https://maddycha.com/", img: "the-dazzles-2.png"});
-members.push({name: "yoona", url: "https://y2kstardust.neocities.org/", img: "built-to-scale.png"});
-members.push({name: "max", url: "https://minerolymax.neocities.org", img: "blue-birds-2.png"});
-members.push({name: "ddnikki", url: "https://ddnikki.moe", img: "rockers.png"});
-members.push({name: "sunny", url: "https://sunshinebeach.neocities.org/", img: "lockstep.png"});
-members.push({name: "Joey", url: "https://goldremix.neocities.org/", img: "rockers-2.png"});
-members.push({name: "Starry", url: "https://starry-knight.neocities.org/", img: "crop-stomp.png"});
-members.push({name: "phi", url: "https://biofreak.world", img: "glee-club-2.png"});
-members.push({name: "OllieOkay", url: "https://ollie-okay.neocities.org/", img: "fillbots.png"});
-members.push({name: "Haumea Geth", url: "https://stupidwittlebaby.neocities.org/", img: "love-lab.png"});
-members.push({name: "snacks", url: "https://snacksgg.neocities.org/", img: "moai-doo-wop-2.png"});
-members.push({name: "Piranhebula", url: "https://piranhebula.neocities.org/", img: "crop-stomp.png"});
-members.push({name: "candycanearter", url: "https://abslimeware.neocities.org", img: "fillbots.png"});
-members.push({name: "SKAPASTA", url: "https://skapasta.neocities.org", img: "dog-ninja.png"});
-members.push({name: "LetsgoLeeLee", url: "https://letsgoleelee.neocities.org/home", img: "the-dazzles-2.png "});
-members.push({name: "Kie", url: "https://ivyswell-tavern.neocities.org/", img: "big-rock-finish.png"});
-members.push({name: "s1nez", url: "https://s1nez.nekoweb.org", img:"blue-birds.png"});
-members.push({name: "Dreamsacpes", url: "https://meyr0s3.neocities.org/", img: "dj-school.png"});
-members.push({name: "ucami", url: "https://ucami.neocities.org", img: "love-lizards.png"});
-members.push({name: "Jay", url: "https://transrats.neocities.org", img: "built-to-scale-2.png"});
-members.push({name: "Common Sins Games", url: "https://asahelixwastaken.neocities.org", img: "blue-birds.png"});
-members.push({name: "jeith!", url: "https://jeith.com", img: "love-lizards.png"});
-members.push({name: "daisybells", url: "https://daisybells.neocities.org", img: "big-rock-finish.png"});
-members.push({name: "Nicky", url: "https://nickyturner.neocities.org", img: "love-lab.png"});
-members.push({name: "amfmradio", url: "https://amfmradio.org/", img: "karate-man.png"});
-members.push({name: "tesseract sys", url: "https://tesseractcube.neocities.org/", img: "glee-club.png"});
-members.push({name: "aiden!", url: " https://troy-sucks.neocities.org/  ", img: "space-soccer.png"});
-members.push({name: "reyn", url: "https://cervidaze.me", img: "lockstep.png"});
-members.push({name: "Grubdog", url: "https://the-grub-grotto.neocities.org/", img: "crop-stomp.png"});
-members.push({name: "Ambrose", url: "https://ruitherga.neocities.org", img: "blue-birds.png"});
-members.push({name: "Mary Cuntrarian", url: "http://marycuntrarian.neocities.org", img: "dj-school.png"});
-members.push({name: "Heap!", url: "https://twotriplezero.nekoweb.org/", img: "love-lab.png"});
-members.push({name: "Blaze", url: "https://blazermaze.neocities.org/", img: "frog-hop-2.png"});
-members.push({name: "Quaggy", url: "https://quaggos.neocities.org/", img: "splashdown.png"});
-members.push({name: "minx98", url: "https://minx98.neocities.org/", img: "built-to-scale.png"});
-members.push({name: "haunt_culture", url: "https://haunt-culture.neocities.org/", img: "rockers.png"});
-members.push({name: "R3CK", url: "https://r3ckoning.nekoweb.org", img: "splashdown.png"});
-members.push({name: "mizu", url: "https://aa-aa-mic-test.neocities.org", img: "glee-club-2.png"});
-members.push({name: "5BRY", url: "https://xbry.neocities.org", img: "space-soccer.png"});
-members.push({name: "Shanimal", url: "https://shanimal.neocities.org/", img: "lockstep.png"});
-members.push({name: "Butterscotch", url: "https://butterscotch.online", img: "fillbots.png"});
-members.push({name: "zestpunk", url: "https://zestpunk.online/", img: "frog-hop-2.png"});
-members.push({name: "pan", url: "https://moonlit.exposed", img: "big-rock-finish.png"});
-members.push({name: "tina", url: "https://manacake.co/", img: "splashdown.png"});
-members.push({name: "Elijah", url: "https://elijahposttrash.neocities.org/", img: "rockers.png"});
-members.push({name: "marmar", url: "https://maralados.neocities.org/", img: "glee-club.png"});
-members.push({name: "Herb", url: "https://herbus-serwus.neocities.org", img: "lockstep.png"});
-members.push({name: "Cobie", url: "https://cobie.nekoweb.org/", img: "lockstep-2.png"});
-members.push({name: "Jonah", url: "https://windowsuser.neocities.com", img: "lockstep.png"});
-members.push({name: "Sedaxf", url: "https://sedaxf.neocities.org/", img: "space-soccer-2.png"});
-members.push({name: "krill0w", url: "https://krill0w.garden", img: "frog-hop.png"});
-members.push({name: "Jujuuy", url: "https://jujuuy.neocities.org/", img: "big-rock-finish.png"});
-members.push({name: "Cantankyote", url: "https://cantankyote.nekoweb.org/", img: "frog-hop-2.png"});
-members.push({name: "ax", url: "https://oversurge.nekoweb.org", img: "dj-school.png"});
-members.push({name: "emmy", url: "https://p3p.neocities.org/", img: "fan-club.png"});
-members.push({name: "littlelum", url:"https://littlelum.neocities.org", img: "glee-club.png"});
-members.push({name: "wanigator", url: "https://waniwanigatorgator.neocities.org", img: "frog-hop-2.png"});
-members.push({name: "Sam", url: "https://samswaggedout.neocities.org/", img: "rockers.png"});
-members.push({name: "sugaryparty", url: "https://sugaryparty.neocities.org/", img: "frog-hop.png"});
-members.push({name: "sens", url: "https://fantasmagoria.neocities.org/", img: "lockstep.png"});
-members.push({name: "lyji", url: "https://lyji.neocities.org/", img: "lockstep.png"});
-members.push({name: "aetherway", url: "https://aetherway.neocitities.org", img: "love-lab.png"});
-members.push({name: "Termotanque De Leche", url: "https://termotanquedeleche.neocities.org/", img: "freeze-frame.png "});
-
-
-
-
-
-
-
+// ===== WEBRING WIDGET =====
+var prevArrow = '<svg width="14" height="10" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges"><path d="M4,0H6V3H14V7H6V10H4V9H3V8H2V7H1V6H0V4H1V3H2V2H3V1H4Z" fill="currentColor"/></svg>';
+var nextArrow = '<svg width="14" height="10" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges"><path d="M8,0H10V1H11V2H12V3H13V4H14V6H13V7H12V8H11V9H10V10H8V7H0V3H8Z" fill="currentColor"/></svg>';
 
 var webring = {
-  // list of sites in the ring
-  sites: [],
+  sites: members.map(function (m) { return m.url; }),
 
-  // html inserted as your widget
-  widget: `
-    <div id="rhythmring">
-      <a href="PREV" target="_blank">
-      <?xml version="1.0" encoding="UTF-8" ?>
-<svg version="1.1" width="14" height="10" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
-<rect x="4" y="0" width="1" height="1" fill="#000000" />
-<rect x="5" y="0" width="1" height="1" fill="#000000" />
-<rect x="3" y="1" width="1" height="1" fill="#000000" />
-<rect x="4" y="1" width="1" height="1" fill="#000000" />
-<rect x="5" y="1" width="1" height="1" fill="#000000" />
-<rect x="2" y="2" width="1" height="1" fill="#000000" />
-<rect x="3" y="2" width="1" height="1" fill="#000000" />
-<rect x="4" y="2" width="1" height="1" fill="#000000" />
-<rect x="5" y="2" width="1" height="1" fill="#000000" />
-<rect x="1" y="3" width="1" height="1" fill="#000000" />
-<rect x="2" y="3" width="1" height="1" fill="#000000" />
-<rect x="3" y="3" width="1" height="1" fill="#000000" />
-<rect x="4" y="3" width="1" height="1" fill="#000000" />
-<rect x="5" y="3" width="1" height="1" fill="#000000" />
-<rect x="6" y="3" width="1" height="1" fill="#000000" />
-<rect x="7" y="3" width="1" height="1" fill="#000000" />
-<rect x="8" y="3" width="1" height="1" fill="#000000" />
-<rect x="9" y="3" width="1" height="1" fill="#000000" />
-<rect x="10" y="3" width="1" height="1" fill="#000000" />
-<rect x="11" y="3" width="1" height="1" fill="#000000" />
-<rect x="12" y="3" width="1" height="1" fill="#000000" />
-<rect x="13" y="3" width="1" height="1" fill="#000000" />
-<rect x="0" y="4" width="1" height="1" fill="#000000" />
-<rect x="1" y="4" width="1" height="1" fill="#000000" />
-<rect x="2" y="4" width="1" height="1" fill="#000000" />
-<rect x="3" y="4" width="1" height="1" fill="#000000" />
-<rect x="4" y="4" width="1" height="1" fill="#000000" />
-<rect x="5" y="4" width="1" height="1" fill="#000000" />
-<rect x="6" y="4" width="1" height="1" fill="#000000" />
-<rect x="7" y="4" width="1" height="1" fill="#000000" />
-<rect x="8" y="4" width="1" height="1" fill="#000000" />
-<rect x="9" y="4" width="1" height="1" fill="#000000" />
-<rect x="10" y="4" width="1" height="1" fill="#000000" />
-<rect x="11" y="4" width="1" height="1" fill="#000000" />
-<rect x="12" y="4" width="1" height="1" fill="#000000" />
-<rect x="13" y="4" width="1" height="1" fill="#000000" />
-<rect x="0" y="5" width="1" height="1" fill="#000000" />
-<rect x="1" y="5" width="1" height="1" fill="#000000" />
-<rect x="2" y="5" width="1" height="1" fill="#000000" />
-<rect x="3" y="5" width="1" height="1" fill="#000000" />
-<rect x="4" y="5" width="1" height="1" fill="#000000" />
-<rect x="5" y="5" width="1" height="1" fill="#000000" />
-<rect x="6" y="5" width="1" height="1" fill="#000000" />
-<rect x="7" y="5" width="1" height="1" fill="#000000" />
-<rect x="8" y="5" width="1" height="1" fill="#000000" />
-<rect x="9" y="5" width="1" height="1" fill="#000000" />
-<rect x="10" y="5" width="1" height="1" fill="#000000" />
-<rect x="11" y="5" width="1" height="1" fill="#000000" />
-<rect x="12" y="5" width="1" height="1" fill="#000000" />
-<rect x="13" y="5" width="1" height="1" fill="#000000" />
-<rect x="1" y="6" width="1" height="1" fill="#000000" />
-<rect x="2" y="6" width="1" height="1" fill="#000000" />
-<rect x="3" y="6" width="1" height="1" fill="#000000" />
-<rect x="4" y="6" width="1" height="1" fill="#000000" />
-<rect x="5" y="6" width="1" height="1" fill="#000000" />
-<rect x="6" y="6" width="1" height="1" fill="#000000" />
-<rect x="7" y="6" width="1" height="1" fill="#000000" />
-<rect x="8" y="6" width="1" height="1" fill="#000000" />
-<rect x="9" y="6" width="1" height="1" fill="#000000" />
-<rect x="10" y="6" width="1" height="1" fill="#000000" />
-<rect x="11" y="6" width="1" height="1" fill="#000000" />
-<rect x="12" y="6" width="1" height="1" fill="#000000" />
-<rect x="13" y="6" width="1" height="1" fill="#000000" />
-<rect x="2" y="7" width="1" height="1" fill="#000000" />
-<rect x="3" y="7" width="1" height="1" fill="#000000" />
-<rect x="4" y="7" width="1" height="1" fill="#000000" />
-<rect x="5" y="7" width="1" height="1" fill="#000000" />
-<rect x="3" y="8" width="1" height="1" fill="#000000" />
-<rect x="4" y="8" width="1" height="1" fill="#000000" />
-<rect x="5" y="8" width="1" height="1" fill="#000000" />
-<rect x="4" y="9" width="1" height="1" fill="#000000" />
-<rect x="5" y="9" width="1" height="1" fill="#000000" />
-</svg></a>
-<object>
-      <div><a href="https://maddycha.com/rhythm-ring" target="_blank"><img id="rhythmring-img" src="" style="padding-bottom: 2px;"></a></div>
-      <a href="RANDOM" target="_blank">[random]</a>
-            </object>
-      <a href="NEXT" target="_blank">
-      <?xml version="1.0" encoding="UTF-8" ?>
-<svg version="1.1" width="14" height="10" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
-<rect x="8" y="0" width="1" height="1" fill="#000000" />
-<rect x="9" y="0" width="1" height="1" fill="#000000" />
-<rect x="8" y="1" width="1" height="1" fill="#000000" />
-<rect x="9" y="1" width="1" height="1" fill="#000000" />
-<rect x="10" y="1" width="1" height="1" fill="#000000" />
-<rect x="8" y="2" width="1" height="1" fill="#000000" />
-<rect x="9" y="2" width="1" height="1" fill="#000000" />
-<rect x="10" y="2" width="1" height="1" fill="#000000" />
-<rect x="11" y="2" width="1" height="1" fill="#000000" />
-<rect x="0" y="3" width="1" height="1" fill="#000000" />
-<rect x="1" y="3" width="1" height="1" fill="#000000" />
-<rect x="2" y="3" width="1" height="1" fill="#000000" />
-<rect x="3" y="3" width="1" height="1" fill="#000000" />
-<rect x="4" y="3" width="1" height="1" fill="#000000" />
-<rect x="5" y="3" width="1" height="1" fill="#000000" />
-<rect x="6" y="3" width="1" height="1" fill="#000000" />
-<rect x="7" y="3" width="1" height="1" fill="#000000" />
-<rect x="8" y="3" width="1" height="1" fill="#000000" />
-<rect x="9" y="3" width="1" height="1" fill="#000000" />
-<rect x="10" y="3" width="1" height="1" fill="#000000" />
-<rect x="11" y="3" width="1" height="1" fill="#000000" />
-<rect x="12" y="3" width="1" height="1" fill="#000000" />
-<rect x="0" y="4" width="1" height="1" fill="#000000" />
-<rect x="1" y="4" width="1" height="1" fill="#000000" />
-<rect x="2" y="4" width="1" height="1" fill="#000000" />
-<rect x="3" y="4" width="1" height="1" fill="#000000" />
-<rect x="4" y="4" width="1" height="1" fill="#000000" />
-<rect x="5" y="4" width="1" height="1" fill="#000000" />
-<rect x="6" y="4" width="1" height="1" fill="#000000" />
-<rect x="7" y="4" width="1" height="1" fill="#000000" />
-<rect x="8" y="4" width="1" height="1" fill="#000000" />
-<rect x="9" y="4" width="1" height="1" fill="#000000" />
-<rect x="10" y="4" width="1" height="1" fill="#000000" />
-<rect x="11" y="4" width="1" height="1" fill="#000000" />
-<rect x="12" y="4" width="1" height="1" fill="#000000" />
-<rect x="13" y="4" width="1" height="1" fill="#000000" />
-<rect x="0" y="5" width="1" height="1" fill="#000000" />
-<rect x="1" y="5" width="1" height="1" fill="#000000" />
-<rect x="2" y="5" width="1" height="1" fill="#000000" />
-<rect x="3" y="5" width="1" height="1" fill="#000000" />
-<rect x="4" y="5" width="1" height="1" fill="#000000" />
-<rect x="5" y="5" width="1" height="1" fill="#000000" />
-<rect x="6" y="5" width="1" height="1" fill="#000000" />
-<rect x="7" y="5" width="1" height="1" fill="#000000" />
-<rect x="8" y="5" width="1" height="1" fill="#000000" />
-<rect x="9" y="5" width="1" height="1" fill="#000000" />
-<rect x="10" y="5" width="1" height="1" fill="#000000" />
-<rect x="11" y="5" width="1" height="1" fill="#000000" />
-<rect x="12" y="5" width="1" height="1" fill="#000000" />
-<rect x="13" y="5" width="1" height="1" fill="#000000" />
-<rect x="0" y="6" width="1" height="1" fill="#000000" />
-<rect x="1" y="6" width="1" height="1" fill="#000000" />
-<rect x="2" y="6" width="1" height="1" fill="#000000" />
-<rect x="3" y="6" width="1" height="1" fill="#000000" />
-<rect x="4" y="6" width="1" height="1" fill="#000000" />
-<rect x="5" y="6" width="1" height="1" fill="#000000" />
-<rect x="6" y="6" width="1" height="1" fill="#000000" />
-<rect x="7" y="6" width="1" height="1" fill="#000000" />
-<rect x="8" y="6" width="1" height="1" fill="#000000" />
-<rect x="9" y="6" width="1" height="1" fill="#000000" />
-<rect x="10" y="6" width="1" height="1" fill="#000000" />
-<rect x="11" y="6" width="1" height="1" fill="#000000" />
-<rect x="12" y="6" width="1" height="1" fill="#000000" />
-<rect x="8" y="7" width="1" height="1" fill="#000000" />
-<rect x="9" y="7" width="1" height="1" fill="#000000" />
-<rect x="10" y="7" width="1" height="1" fill="#000000" />
-<rect x="11" y="7" width="1" height="1" fill="#000000" />
-<rect x="8" y="8" width="1" height="1" fill="#000000" />
-<rect x="9" y="8" width="1" height="1" fill="#000000" />
-<rect x="10" y="8" width="1" height="1" fill="#000000" />
-<rect x="8" y="9" width="1" height="1" fill="#000000" />
-<rect x="9" y="9" width="1" height="1" fill="#000000" />
-</svg>
+  widget: '<div id="rhythmring">' +
+    '<a href="PREV" target="_blank">' + prevArrow + '</a>' +
+    '<object>' +
+    '<div><a href="https://maddycha.com/rhythm-ring" target="_blank"><img id="rhythmring-img" src="" style="padding-bottom:2px"></a></div>' +
+    '<a href="RANDOM" target="_blank">[random]</a>' +
+    '</object>' +
+    '<a href="NEXT" target="_blank">' + nextArrow + '</a>' +
+    '</div>',
 
-      </a>
-    </div>
-  `,
-  // widget css
   stylesheet: "https://maddycha.com/rhythm-ring/css/rhythmring.css",
-
-  // html inserted instead of your widget on sites that aren't in the ring
   error: "<div>this site isn't part of the webring yet</div>",
 };
 
-for(var i = 0; i<members.length; i++){
-  webring.sites.push(members[i].url);
-}
-
-// code
 webring.index = location.href.startsWith("file://") ? 0 : webring.sites.findIndex(url => location.href.startsWith(url));
 if (webring.index === -1) document.currentScript.outerHTML = webring.error;
 else {

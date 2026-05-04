@@ -376,25 +376,3 @@ h2{
 
 
 
-@media screen and (pointer:none),
-(pointer:coarse) and (min-width: 0px) and (max-width: 767px) {
-
-    #no-laptop {
-        display: block;
-    }
-
-    #laptop {
-        display: none;
-    }
-
-}
-@media only screen and (pointer:none),
-(pointer:coarse) and (orientation: landscape) {
-    #laptop {
-        display: none;
-    }
-
-    #no-laptop {
-        display: block;
-    }
-}

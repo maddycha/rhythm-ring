@@ -28,7 +28,7 @@ members.push({name: "Common Sins Games", url: "https://asahelixwastaken.neocitie
 members.push({name: "jeith!", url: "https://jeith.com", img: "love-lizards.png"});
 members.push({name: "daisybells", url: "https://daisybells.neocities.org", img: "big-rock-finish.png"});
 members.push({name: "Nicky", url: "https://nickyturner.neocities.org", img: "love-lab.png"});
-members.push({name: "amfmradio", url: "https://amfmradio.nekoweb.org/", img: "karate-man.png"});
+members.push({name: "amfmradio", url: "https://amfmradio.org/", img: "karate-man.png"});
 members.push({name: "tesseract sys", url: "https://tesseractcube.neocities.org/", img: "glee-club.png"});
 members.push({name: "aiden!", url: " https://troy-sucks.neocities.org/  ", img: "space-soccer.png"});
 members.push({name: "reyn", url: "https://cervidaze.me", img: "lockstep.png"});
@@ -62,8 +62,12 @@ members.push({name: "emmy", url: "https://p3p.neocities.org/", img: "fan-club.pn
 members.push({name: "littlelum", url:"https://littlelum.neocities.org", img: "glee-club.png"});
 members.push({name: "wanigator", url: "https://waniwanigatorgator.neocities.org", img: "frog-hop-2.png"});
 members.push({name: "Sam", url: "https://samswaggedout.neocities.org/", img: "rockers.png"});
-members.push({name: "sens", url: "https://fantasmagoria.neocities.org/", img: "lockstep.png"});
 members.push({name: "sugaryparty", url: "https://sugaryparty.neocities.org/", img: "frog-hop.png"});
+members.push({name: "sens", url: "https://fantasmagoria.neocities.org/", img: "lockstep.png"});
+members.push({name: "lyji", url: "https://lyji.neocities.org/", img: "lockstep.png"});
+members.push({name: "aetherway", url: "https://aetherway.neocitities.org", img: "love-lab.png"});
+members.push({name: "Termotanque De Leche", url: "https://termotanquedeleche.neocities.org/", img: "freeze-frame.png "});
+
 
 
 

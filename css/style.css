@@ -375,4 +375,9 @@ h2{
 }
 
 
-
+.credit li{
+    display: block;
+}
+.credit li a{
+    display: inline-block;
+}

@@ -23,7 +23,7 @@ var members = [
   { name: "Dreamsacpes", url: "https://meyr0s3.neocities.org/", img: "dj-school.png" },
   { name: "ucami", url: "https://ucami.neocities.org", img: "love-lizards.png" },
   { name: "Jay", url: "https://transrats.neocities.org", img: "built-to-scale-2.png" },
-  { name: "Common Sins Games", url: "https://asahelixwastaken.neocities.org", img: "blue-birds.png" },
+  { name: "Common Sins Games", url: "https://asahelix.com", img: "blue-birds.png" },
   { name: "jeith!", url: "https://jeith.com", img: "love-lizards.png" },
   { name: "daisybells", url: "https://daisybells.neocities.org", img: "big-rock-finish.png" },
   { name: "Nicky", url: "https://nickyturner.neocities.org", img: "love-lab.png" },
@@ -66,6 +66,8 @@ var members = [
   { name: "lyji", url: "https://lyji.neocities.org/", img: "lockstep.png" },
   { name: "aetherway", url: "https://aetherway.neocitities.org", img: "love-lab.png" },
   { name: "Termotanque De Leche", url: "https://termotanquedeleche.neocities.org/", img: "freeze-frame.png" },
+  { name: "hank", url: "https://hanksubversion.neocities.org/", img: "https://file.garden/afo50wg2BkSpe-Xf/hanksroom.gif" },
+
 ];
 
 // ===== WEBRING WIDGET =====

@@ -66,7 +66,7 @@ var members = [
   { name: "lyji", url: "https://lyji.neocities.org/", img: "lockstep.png" },
   { name: "aetherway", url: "https://aetherway.neocitities.org", img: "love-lab.png" },
   { name: "Termotanque De Leche", url: "https://termotanquedeleche.neocities.org/", img: "freeze-frame.png" },
-  { name: "hank", url: "https://hanksubversion.neocities.org/", img: "https://file.garden/afo50wg2BkSpe-Xf/hanksroom.gif" },
+  { name: "hank", url: "https://hanksubversion.neocities.org/", img: "built-to-scale.png" },
 
 ];
 

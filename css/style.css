@@ -381,3 +381,153 @@ h2{
 .credit li a{
     display: inline-block;
 }
+
+.mobile-credits {
+    display: none;
+}
+
+#mobile-logo {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    body {
+        position: static;
+        transform: none;
+        overflow-y: auto;
+        height: auto;
+        min-height: 100vh;
+        background: none;
+    }
+
+    body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url("../imgs/misc/bg.png");
+        background-size: auto;
+        background-repeat: repeat;
+        filter: saturate(0);
+        z-index: -1;
+    }
+
+    .mobile-wrapper {
+        width: calc(100% - 48px);
+        max-width: 480px;
+        margin: 24px auto;
+        background: white;
+        border-radius: 32px;
+        border: 1.5px solid black;
+        overflow: hidden;
+    }
+
+    #ds {
+        position: static;
+        transform: none;
+        width: 100%;
+        aspect-ratio: auto;
+        border: none;
+        border-radius: 0;
+        overflow: visible;
+        background: none;
+    }
+
+    #left-screen, #right-screen {
+        float: none;
+        width: 100%;
+        height: auto;
+        overflow-y: visible;
+    }
+
+    #left-screen {
+        display: none;
+    }
+
+    #mobile-logo {
+        display: block;
+        max-width: 220px;
+        margin: 32px auto 0;
+        padding: 0;
+        transform: translateX(-8px);
+    }
+
+    .credit {
+        display: none;
+    }
+
+    #right-screen {
+        padding: 0 16px 24px;
+    }
+
+    nav, .nav-bg {
+        display: none !important;
+    }
+
+    #joinpage, #widgetpage {
+        display: none !important;
+    }
+
+    #aboutpage {
+        display: none !important;
+    }
+
+    #memberspage {
+        display: block !important;
+        padding: 36px 0 20px;
+    }
+
+    #lockstep {
+        display: none;
+    }
+
+    section {
+        max-height: none;
+    }
+
+    .scroll-rounded {
+        overflow: visible;
+    }
+
+    .scroll-y {
+        height: auto !important;
+        overflow-y: visible;
+    }
+
+    #members-table {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px 16px;
+        justify-content: center;
+    }
+
+    .member {
+        width: calc(33.33% - 11px);
+        margin-right: 0;
+        padding-bottom: 0;
+        float: none;
+        box-sizing: border-box;
+    }
+
+    .mobile-credits {
+        display: block;
+        text-align: center;
+        padding: 24px 16px;
+        background: rgba(0, 168, 248, 0.9);
+        box-sizing: border-box;
+    }
+
+    .mobile-credits ul {
+        list-style: none;
+    }
+
+    .mobile-credits li {
+        padding: 4px 0;
+    }
+
+    .mobile-credits a {
+        color: white;
+    }
+}

@@ -69,8 +69,7 @@ var members = [
   { name: "hank", url: "https://hanksubversion.neocities.org/", img: "built-to-scale.png" },
   { name: "desi", url: "https://keltime.nekoweb.org", img: "glee-club.png"},
   { name: "Asteroid", url: "https://asteroids-cove.neocities.org/home", img: "blue-birds.png" },
-
-
+{ name: "Roze", url: "https://roze-omega.neocities.org", img: "frog-hop-2.png" }
 
 ];
 

@@ -32,7 +32,6 @@ var members = [
   { name: "aiden!", url: "https://troy-sucks.neocities.org/", img: "space-soccer.png" },
   { name: "reyn", url: "https://cervidaze.me", img: "lockstep.png" },
   { name: "Grubdog", url: "https://the-grub-grotto.neocities.org/", img: "crop-stomp.png" },
-  { name: "Ambrose", url: "https://ruitherga.neocities.org", img: "blue-birds.png" },
   { name: "Mary Cuntrarian", url: "http://marycuntrarian.neocities.org", img: "dj-school.png" },
   { name: "Heap!", url: "https://twotriplezero.nekoweb.org/", img: "love-lab.png" },
   { name: "Blaze", url: "https://blazermaze.neocities.org/", img: "frog-hop-2.png" },
@@ -70,6 +69,9 @@ var members = [
   { name: "desi", url: "https://keltime.nekoweb.org", img: "glee-club.png"},
   { name: "Asteroid", url: "https://asteroids-cove.neocities.org/home", img: "blue-birds.png" },
 { name: "Roze", url: "https://roze-omega.neocities.org", img: "frog-hop-2.png" }
+{ name: "Pepper's Wasteland", url: "https://peppers-wasteland.neocities.org", img: "remix-3.png" },
+{ name: "Ninho de rato", url: "https://ninhoderato.com.br", img: "blue-birds.png" },
+
 
 ];
 
